@@ -16,5 +16,4 @@ for starStep in range(5):
     tur.forward(100)
     tur.left(360 / 5)
 
-
 tur.done()

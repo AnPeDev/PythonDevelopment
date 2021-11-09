@@ -1,0 +1,16 @@
+SELECT * FROM world.city;
+SELECT * FROM world.country;
+SELECT world.city.name AS NAME1, world.country.name AS NAME2 FROM world.city, world.country;
+SELECT world.city.name AS NAME1, world.country.name AS NAME2 FROM world.city JOIN world.country;
+SELECT Name FROM world.city;
+SELECT DISTINCT Name FROM world.city;
+SELECT ID, Name FROM world.city WHERE Name='Oxford';
+SELECT ID, Name FROM world.city;
+UPDATE world.city SET name = 'Oxfford' WHERE ID = 498;
+SELECT ID, Name FROM world.city WHERE ID = 498;
+DELETE FROM world.city WHERE ID = 1;
+SELECT * FROM world.city WHERE ID<5;
+SELECT COUNT(*) AS cnt FROM world.city;
+SELECT COUNT(*) AS ntb FROM world.country;
+SELECT MIN(Population) AS min_population FROM world.city;
+SELECT * FROM world.city WHERE Population = 42;
