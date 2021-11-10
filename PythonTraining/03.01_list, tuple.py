@@ -13,11 +13,29 @@
 # print(*T)
 # print(*T, sep=' : ', end='!\n')
 
+# id_user_777 = 'Andrei', 'Pervyi'
+# id_user_888 = 'Janna', 'Novikova'
 
-def hello(name, surname):
-    print(name, surname, end='!!!\n')
+
+# def hello(name, surname):
+#     print('Hello,', name, surname, end='!!!\n')
 
 
-id_user_777 = 'Andrei', 'Pervyi'
-hello('Andrei', 'Pervyi')
-hello(*id_user_777)
+# hello('Andrei', 'Pervyi')
+# hello(*id_user_777)
+# hello(*id_user_888)
+
+# A = range(1, 10)
+# print(*A)
+
+# B = [('Andrei', 'Pervyi'), ('Zina', 'Golikova'), ('Maksim', 'Udalov')]
+# for name, surname in B:
+#     print(name, surname)
+
+City = {'Moscow': 34567, 'Dolgoprudny': 12345, 'Piter': 67890}
+City['Rostov'] = 45345
+for key in City:
+    print(key, City[key])
+
+print(City)
+print(City['Moscow'])
