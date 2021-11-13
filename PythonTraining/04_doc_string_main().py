@@ -19,4 +19,5 @@ def paint_house(x, y, width, height):
 main()
 
 print(paint_house.__doc__)
+# help(paint_house) Тоже выводит документ строки
 # Выводит документ строки
